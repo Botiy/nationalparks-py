@@ -31,8 +31,6 @@ jobs:
     - name: Checkout
       id: checkout
       uses: actions/checkout@v2
-
-	# Debug if necessary
     - name: Debug Host Environment
       run: |
         cat /etc/os-release  # Verify the OS version
